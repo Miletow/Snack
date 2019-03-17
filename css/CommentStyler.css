@@ -1,0 +1,173 @@
+
+.Swag {
+  margin: auto;
+}
+
+body{
+  background-color: #fff;
+}
+
+h1{
+  text-align: center;
+  color: #2793e6;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    cursor: pointer;
+    display: block;
+    color: #CCC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 2px solid #CCC;
+    font-weight: bold;
+    font-family: arial;
+
+}
+
+li a:hover:not(.active) {
+    color: black;
+}
+
+.active {
+    color: black;
+    background-color: #fff;
+    border-bottom: 2px solid #2793e6;
+}
+
+.tibia button{
+  float: right;
+  display: block;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #222;
+  font-family: arial;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+.tibia button{
+  background-color: #2793e6;
+}
+
+.tibia button:hover{
+  background-color: #2eb9e8;
+}
+
+.comment-box {
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 3px;
+  background-color: #1E90FF;
+  border-radius: 4px;
+  position: relative;
+
+}
+  .comment-box {
+  /*font-family: arial;
+  font-size: 14px;
+  line-height: 16px;
+  color: #282828;
+  font-weight: 100;
+    margin-left: .5em;
+  background: #2793e6;
+  font-size: 0.8em;
+  padding: 0.2em 0.6em;
+  color: #fff;
+  font-weight: normal;
+  border-radius: 1em;
+  vertical-align: bottom;
+  padding: .5em;
+  border-top: 1px solid #DDD;
+  overflow: hidden;
+  white-space: pre-line;
+  word-break: break-word;*/
+
+  color: #282828;
+  font-family: Arial;
+  font-size: 1em;
+
+  background: #FFF;
+  z-index: 99;
+  line-height: 1.2em;
+
+  border: 1px solid #CCC;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -ms-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+
+.comment-box button{
+  border: none;
+  border-radius: 0.1em;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  background-color: #2793e6;
+  top: 2px;
+  right: 2px;
+  
+}
+
+#name {
+  font-weight: bold;
+  padding: 0px;
+}
+
+#date {
+  position: relative;
+  float: right;
+}
+
+#back{
+  float: left;
+  width: 70px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: #2793e6;
+  font-family: arial;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 1px;
+  border:none;
+  /*transition: all 0.1s;
+  border: 1px;
+  border-style: solid;
+  border-color: #989898;
+  position: relative;*/
+}
+
+#back:hover{
+  background-color: #00BFFF;
+}
+#back:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.link {
+  float: right;
+}
